@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px 10px 0px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px;
+    background: transparent;
+    background-color: rgb(24, 119, 207);
+    color: white;
+    border: 1px solid #d4cfcf;
+    border-radius: 5px;
+}
+
+.cntHeader {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #cac3c3;
+    border-radius: 30px;
+}
+
+.cntHeader-images {
+    height: 310px;
+    background-image: url("./assets/images/fondo.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: last;
+    align-items: flex-end;
+    border-radius: 30px 30px 0 0;
+}
+
+.cntHeader-Persona {
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.cntHeader-lapiz {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.cntHeader-content {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.cntSectionAcerca {
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #cac3c3;
+    border-radius: 30px;
+}
+
+.cntSectionAcerca-Titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cntSectionExperiencia {
+    margin-top: 30px;
+    padding: 30px;
+    border: 2px solid #cac3c3;
+    border-radius: 30px;
+}
+
+.cntSectionExperiencia-Titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cntFooter {
+    margin-top: 30px;
+    height: 120px;
+    background-color: black;
+    color: antiquewhite;
+}
