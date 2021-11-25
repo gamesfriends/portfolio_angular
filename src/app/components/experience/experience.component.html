@@ -8,8 +8,8 @@
                 <img class="cntHeader-lapiz" src="./assets/images/lapiz.png" alt="lapiz">
             </div>
         </div>
-        <p>Barcelona.</p>
-        <p>PSG.</p>
-        <p>Selecion Argentina.</p>
+        <ul>
+            <li *ngFor="let experience of miPortfolio">{{experience.league}}-{{experience.equipment}}</li>
+        </ul>
     </div>
 </section>

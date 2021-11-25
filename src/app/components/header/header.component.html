@@ -1,13 +1,13 @@
 <header>
     <div class="cntHeader">
         <div class="cntHeader-images">
-            <img class="cntHeader-Persona" src="./assets/images/persona.jpg" alt="persona">
+            <img class="cntHeader-Persona" [src]="miPortfolio.foto" alt="persona">
             <img class="cntHeader-lapiz" src="./assets/images/lapiz.png" alt="lapiz">
         </div>
         <div class="cntHeader-content">
-            <h1>Lionel Messi</h1>
-            <h2>Mejor jugador del mundo actualmente</h2>
-            <h3>Rosario - Santa Fe (Argentina)</h3>
+            <h1>{{miPortfolio.name}}</h1>
+            <h2>{{miPortfolio.profession}}</h2>
+            <h3>{{miPortfolio.placeOfBirth}}</h3>
             <p>Informacion de contacto</p>
             <button>Tengo interes en</button>
             <button>Añadir seccion</button>

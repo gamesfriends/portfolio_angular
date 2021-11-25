@@ -1,0 +1,20 @@
+{
+    "name": "Lionel Messi",
+    "profession": "Mejor jugador del mundo actualmente",
+    "placeOfBirth": "Rosario - Santa Fe (Argentina)",
+    "foto": "https://www.clarin.com/img/2021/11/19/messi-esta-disponible-y-podria___50sFneVZvD_1256x620__1.jpg",
+    "experience": [
+        {
+            "league": "España.",
+            "equipment": "Barcelona."
+        },
+        {
+            "league": "Francia.",
+            "equipment": "PSG."
+        },
+        {
+            "league": "Mundial.",
+            "equipment": "Seleccion Argentina."
+        }
+    ]
+}
